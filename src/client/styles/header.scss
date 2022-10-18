@@ -1,0 +1,16 @@
+/*navbar*/
+$primary-color: #333;
+$secondary-color:white;
+
+header {
+    
+    background-color:$primary-color ;
+    color: $secondary-color;
+    h1{
+        text-align: center;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    
+}
+

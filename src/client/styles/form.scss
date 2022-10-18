@@ -1,0 +1,84 @@
+
+$font-color: #0d0d0e;
+$second-color: #ffffff;
+$btn-color: #199ab0;
+$btn-scolor: #f7642f;
+
+
+
+
+    #tripForm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+       .city{
+        margin-top: 2rem;
+        input{
+            width: 300px;
+            height:40px;
+            border-radius: 5px;
+            border:1px solid $second-color
+        }
+       }
+
+       .travelDate{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+         input{
+            width: 250px;
+            height:40px;
+            border-radius: 5px;
+            border:1px solid $second-color;
+            color: $font-color;
+         }
+         label{
+            margin-left: 2%;
+         }
+       }
+
+       .btn{
+        width: 35%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        #submit{
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+            border:1px solid $second-color;
+            color: $second-color;
+            background-color: $btn-color;
+            transition: all 0.5s ease-in;
+        }
+        #remove{
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+            border:1px solid $second-color;
+           background-color: $btn-scolor;
+           transition: all 0.5s ease-in;
+        }
+        #submit:hover{
+            background-color: $btn-scolor;
+            color: $font-color;
+        }
+        #remove:hover{
+            background-color: $btn-color;
+            color: $second-color;
+        }
+    }
+            
+
+            
+  
+
+       
+    
+    
+
+
