@@ -2,7 +2,8 @@
 const geoURL = "http://api.geonames.org/searchJSON?q=";
 const GEO_API_KEY = "jairajpuri";
 let weatherbitURL = " http://api.weatherbit.io/v2.0/forecast/daily?";
-const WEATHERBIT_API_KEY = "53b6663fdf6843b48fd4ff977c42fc89";
+const WEATHERBIT_API_KEY = "4ae7bed22a074c1b86986cee2484d2bc";
+
 const pixa_URL = "https://pixabay.com/api/?key=";
 const PIXA_API_KEY = "29924781-a1dda297e68a17dd8e7fbf1d3";
 
