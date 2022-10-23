@@ -40,7 +40,7 @@ function getData (req, res)  {
   console.log(projectData);
 };
 
-const port = 3000;
+const port = 8081;
 /* Spin up the server*/
 const server = app.listen(port, listening);
  function listening(){

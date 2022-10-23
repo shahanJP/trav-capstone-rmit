@@ -32,7 +32,7 @@ async function handleSubmit(e) {
   const pixaUrlData = await getPixaUrl(pixa_URL, PIXA_API_KEY, destination);
 
   
-  await postData('http://localhost:3000/postData', {
+  await postData('http://localhost:8081/postData', {
     cityRes: destination,
     startDate: startDate,
     endDate: endDate,
