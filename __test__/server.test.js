@@ -1,16 +1,17 @@
 
 //reference https://dev.to/eetukudo_/server-side-testing-with-jest
+const app = require('../src/server/server');
+const supertest = require('supertest');
+const request = supertest(app);
 
-import {describe, expect} from "@jest/globals";
+describe('Correct endpoints', () => {
+	
+	test('Checks if GET route / status is 200', async () => {
+		const response = await request
+			.get('/');
+		
+		expect(response.status).toBe(200);
+		;
+	})
+})
 
- const server = require("../src/server")
- 
-describe('test router', () => {
-    describe('getData', () => {
-      it('should return a 200', () => {
-        request(server).get('getData').then((res) => {
-          expect(res.statusCode).toBe(200);
-        });
-      });
-    });
-  });

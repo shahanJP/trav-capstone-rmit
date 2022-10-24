@@ -7,10 +7,11 @@ const WEATHERBIT_API_KEY = "4ae7bed22a074c1b86986cee2484d2bc";
 const pixa_URL = "https://pixabay.com/api/?key=";
 const PIXA_API_KEY = "29924781-a1dda297e68a17dd8e7fbf1d3";
 
-//Event Listener to trigger handleSubmit on Click
-const submit = document.getElementById("submit");
-submit.addEventListener("click", handleSubmit);
-
+//Event Listener to trigger handleSubmit on Click//
+if (typeof document !== "undefined") {
+  document.getElementById('submit').addEventListener('click', handleSubmit);;
+}
+//document.getElementById('submit').addEventListener('click', handleSubmit);
 // Function trigger by event listener //
 
 // Reference: udacity project 4 news nlp//

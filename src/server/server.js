@@ -6,7 +6,7 @@ const express = require('express');
 
 /* Start up an instance of app */
 const app = express();
-
+app.use(express.json());
 /* Dependencies */
 const bodyParser = require('body-parser')
 /* Middleware*/
@@ -39,6 +39,9 @@ function getData (req, res)  {
   res.send(projectData);
   console.log(projectData);
 };
+app.get('/testEndpoint', async (req, res) => {
+  res.json({message: 'The endpoint test passed!'})
+})
 
 const port = 8081;
 /* Spin up the server*/

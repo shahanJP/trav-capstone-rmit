@@ -73,6 +73,30 @@ $btn-scolor: #f7642f;
         }
     }
             
+    @media screen and (max-width: 680px) {
+        .city{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            input{
+                margin-top: 3%;
+            }
+        }
+        .travelDate{
+            display: flex;
+            flex-direction: column;
+            input{
+                margin-bottom: 5%;
+            }
+        }
+        .btn{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 5%;
+        }
+      }
 
             
   

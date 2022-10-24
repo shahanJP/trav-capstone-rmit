@@ -1,5 +1,5 @@
 {
-  "name": "evaluate-news-nlp",
+  "name": "travel-capstone",
   "version": "1.0.0",
   "description": "This repo is your starter code for the project. It is the same as the starter code we began with in lesson 2. Install and configure Webpack just as we did in the course. Feel free to refer to the course repo as you build this one, and remember to make frequent commits and to create and merge branches as necessary!",
   "main": "index.js",
@@ -41,6 +41,7 @@
     "optimize-css-assets-webpack-plugin": "^4.0.0",
     "path": "^0.12.7",
     "saas": "^1.0.0",
-    "sass": "^1.54.5"
+    "sass": "^1.54.5",
+    "supertest": "^6.3.0"
   }
 }

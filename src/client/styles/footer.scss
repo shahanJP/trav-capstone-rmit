@@ -2,13 +2,15 @@
 $primary-color: #39393b;
 $second-color: #ffffff;
 footer{
+    position: fixed;
+    bottom: 0;
     text-align:center;
     font-size:25px;
-    margin-bottom: 1px;
+    margin-top: 15%;
     background-color:$primary-color;
     color:$second-color;
     width:100%;
-    height: 5%;
+    height: 3%;
   
  
 
